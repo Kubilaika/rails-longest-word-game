@@ -1,6 +1,6 @@
 <h1>Now your result</h1>
 <p>Your word: <%= @answer %> </p>
-<!-- <p>Time Taken to answer: <%=  %> </p> -->
-<!-- <p>Translation: <%=  %></p> -->
-<!-- <p>Your score: <%=  %></p> -->
-<!-- <p>Message: <%=  %></p> -->
+<p>Time Taken to answer: <%= @result[:time] %> </p>
+<p>Translation: <%= @result[:translation] %></p>
+<p>Your score: <%= @result[:score] %></p>
+<p>Message: <%= @result[:message] %></p>
